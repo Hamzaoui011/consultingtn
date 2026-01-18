@@ -9,7 +9,7 @@ export const translations = {
     // Hero
     heroTitle: "Réservez votre consultation stratégique",
     heroSubtitle: "45 minutes pour transformer votre stratégie marketing digital",
-    price: "50 DT",
+    freeAudit: "Audit en ligne gratuit",
     duration: "45 min",
     
     // Services
@@ -79,7 +79,7 @@ export const translations = {
     // Hero
     heroTitle: "احجز استشارتك الاستراتيجية",
     heroSubtitle: "45 دقيقة لتحويل استراتيجية التسويق الرقمي الخاصة بك",
-    price: "50 دينار",
+    freeAudit: "تدقيق مجاني عبر الإنترنت",
     duration: "45 دقيقة",
     
     // Services
@@ -149,7 +149,7 @@ export const translations = {
     // Hero
     heroTitle: "Book your strategic consultation",
     heroSubtitle: "45 minutes to transform your digital marketing strategy",
-    price: "50 DT",
+    freeAudit: "Free online audit",
     duration: "45 min",
     
     // Services
