@@ -1,5 +1,5 @@
 import { useLanguage } from '@/contexts/LanguageContext';
-import { Clock, CreditCard, Star } from 'lucide-react';
+import { Clock, Gift, Star } from 'lucide-react';
 
 export const HeroSection = () => {
   const { t } = useLanguage();
@@ -32,13 +32,13 @@ export const HeroSection = () => {
 
         {/* Info Pills */}
         <div className="flex flex-wrap items-center justify-center gap-4 animate-fade-in">
+          <div className="flex items-center gap-2 px-4 py-2 rounded-full glass-card border-2 border-primary glow-gold">
+            <Gift className="h-5 w-5 text-primary" />
+            <span className="font-bold text-lg">{t.freeAudit}</span>
+          </div>
           <div className="flex items-center gap-2 px-4 py-2 rounded-full glass-card">
             <Clock className="h-5 w-5 text-primary" />
             <span className="font-semibold">{t.duration}</span>
-          </div>
-          <div className="flex items-center gap-2 px-4 py-2 rounded-full glass-card border-2 border-primary glow-gold">
-            <CreditCard className="h-5 w-5 text-primary" />
-            <span className="font-bold text-lg">{t.price}</span>
           </div>
         </div>
       </div>
