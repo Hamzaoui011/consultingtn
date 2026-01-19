@@ -9,24 +9,30 @@ export const translations = {
     // Hero
     heroTitle: "Réservez votre consultation stratégique",
     heroSubtitle: "45 minutes pour transformer votre stratégie marketing digital",
-    freeAudit: "Audit en ligne gratuit",
+    freeAudit: "Première consultation GRATUITE",
     duration: "45 min",
     
     // Services
     selectService: "Choisissez votre service",
     services: {
-      metaAds: "Stratégie Meta Ads",
-      metaAdsDesc: "Optimisez vos campagnes Facebook & Instagram",
-      googleAds: "Stratégie Google Ads",
-      googleAdsDesc: "Dominez la recherche payante",
-      socialMedia: "Stratégie Social Media",
-      socialMediaDesc: "Développez votre présence sur les réseaux",
-      ecommerce: "Stratégie E-commerce",
-      ecommerceDesc: "Boostez vos ventes en ligne",
-      branding: "Stratégie de Marque",
-      brandingDesc: "Construisez une identité forte",
-      audit: "Audit Marketing",
-      auditDesc: "Analysez et améliorez vos performances"
+      paidAds: "🎯 Publicité Payante & Performance",
+      paidAdsDesc: "Transformez les clics en ventes",
+      paidAdsDetails: "Meta Ads • Google Ads • Funnels • Retargeting • Optimisation du ROAS",
+      strategy: "🧠 Stratégie & Conseil",
+      strategyDesc: "Clarté et direction de croissance",
+      strategyDetails: "Stratégie marketing • Go-To-Market • Personas • Analyse concurrentielle",
+      ecommerce: "🛒 E-commerce & Croissance Social Media",
+      ecommerceDesc: "Faites évoluer les marques et les boutiques en ligne",
+      ecommerceDetails: "Lancement de produits • Systèmes d'upsell • Stratégie de contenu • Croissance de communauté",
+      webDev: "🖥️ Développement Web",
+      webDevDesc: "Sites rapides et orientés conversion",
+      webDevDetails: "Landing Pages • WordPress • UX/UI • Intégration des paiements",
+      content: "🎨 Création de Contenu",
+      contentDesc: "Visuels à fort impact qui convertissent",
+      contentDetails: "Reels • UGC • Créations publicitaires • Contenu de marque",
+      seo: "🔍 SEO (Référencement naturel)",
+      seoDesc: "Gagnez en visibilité. Générez des leads organiques",
+      seoDetails: "SEO local • Optimisation on-page • Mots-clés • Suivi et reporting"
     },
     
     // Calendar
@@ -79,24 +85,30 @@ export const translations = {
     // Hero
     heroTitle: "احجز استشارتك الاستراتيجية",
     heroSubtitle: "45 دقيقة لتحويل استراتيجية التسويق الرقمي الخاصة بك",
-    freeAudit: "تدقيق مجاني عبر الإنترنت",
+    freeAudit: "الاستشارة الأولى مجانية",
     duration: "45 دقيقة",
     
     // Services
     selectService: "اختر خدمتك",
     services: {
-      metaAds: "استراتيجية Meta Ads",
-      metaAdsDesc: "حسّن حملاتك على Facebook و Instagram",
-      googleAds: "استراتيجية Google Ads",
-      googleAdsDesc: "تصدر البحث المدفوع",
-      socialMedia: "استراتيجية وسائل التواصل",
-      socialMediaDesc: "طوّر تواجدك على الشبكات",
-      ecommerce: "استراتيجية التجارة الإلكترونية",
-      ecommerceDesc: "عزز مبيعاتك عبر الإنترنت",
-      branding: "استراتيجية العلامة التجارية",
-      brandingDesc: "ابنِ هوية قوية",
-      audit: "تدقيق التسويق",
-      auditDesc: "حلل وحسّن أدائك"
+      paidAds: "🎯 الإعلانات المدفوعة والأداء",
+      paidAdsDesc: "حوّل النقرات إلى مبيعات",
+      paidAdsDetails: "إعلانات ميتا • إعلانات جوجل • مسارات التحويل • إعادة الاستهداف • تحسين العائد على الإنفاق الإعلاني (ROAS)",
+      strategy: "🧠 الاستراتيجية والاستشارات",
+      strategyDesc: "وضوح في الرؤية واتجاه النمو",
+      strategyDetails: "استراتيجية التسويق • خطط دخول السوق (Go-To-Market) • بناء الشخصيات (Personas) • تحليل المنافسين",
+      ecommerce: "🛒 التجارة الإلكترونية والنمو عبر السوشيال ميديا",
+      ecommerceDesc: "توسيع نطاق العلامات التجارية والمتاجر الإلكترونية",
+      ecommerceDetails: "إطلاق المنتجات • أنظمة البيع الإضافي (Upsell) • استراتيجية المحتوى • تنمية المجتمع",
+      webDev: "🖥️ تطوير المواقع الإلكترونية",
+      webDevDesc: "مواقع سريعة ومركزة على التحويل",
+      webDevDetails: "صفحات الهبوط • ووردبريس • تجربة المستخدم/واجهة المستخدم (UX/UI) • دمج أنظمة الدفع",
+      content: "🎨 إنشاء المحتوى",
+      contentDesc: "مرئيات عالية التأثير تحفّز التحويل",
+      contentDetails: "ريلز • محتوى من إنشاء المستخدمين (UGC) • تصاميم الإعلانات • محتوى العلامة التجارية",
+      seo: "🔍 تحسين محركات البحث (SEO)",
+      seoDesc: "تصدّر النتائج واحصل على عملاء بشكل عضوي",
+      seoDetails: "تحسين محلي • تحسين داخل الصفحة • الكلمات المفتاحية • التتبع والتقارير"
     },
     
     // Calendar
@@ -149,24 +161,30 @@ export const translations = {
     // Hero
     heroTitle: "Book your strategic consultation",
     heroSubtitle: "45 minutes to transform your digital marketing strategy",
-    freeAudit: "Free online audit",
+    freeAudit: "First Consultation is FREE",
     duration: "45 min",
     
     // Services
     selectService: "Choose your service",
     services: {
-      metaAds: "Meta Ads Strategy",
-      metaAdsDesc: "Optimize your Facebook & Instagram campaigns",
-      googleAds: "Google Ads Strategy",
-      googleAdsDesc: "Dominate paid search",
-      socialMedia: "Social Media Strategy",
-      socialMediaDesc: "Grow your social presence",
-      ecommerce: "E-commerce Strategy",
-      ecommerceDesc: "Boost your online sales",
-      branding: "Brand Strategy",
-      brandingDesc: "Build a strong identity",
-      audit: "Marketing Audit",
-      auditDesc: "Analyze and improve your performance"
+      paidAds: "🎯 Paid Ads & Performance",
+      paidAdsDesc: "Turn clicks into sales",
+      paidAdsDetails: "Meta Ads • Google Ads • Funnels • Retargeting • ROAS Optimization",
+      strategy: "🧠 Strategy & Consulting",
+      strategyDesc: "Clarity and growth direction",
+      strategyDetails: "Marketing Strategy • Go-To-Market • Personas • Competitive Analysis",
+      ecommerce: "🛒 E-commerce & Social Growth",
+      ecommerceDesc: "Scale brands and online stores",
+      ecommerceDetails: "Product Launch • Upsell Systems • Content Strategy • Community Growth",
+      webDev: "🖥️ Website Development",
+      webDevDesc: "Fast, conversion-focused websites",
+      webDevDetails: "Landing Pages • WordPress • UX/UI • Payment Integration",
+      content: "🎨 Content Creation",
+      contentDesc: "High-impact visuals that convert",
+      contentDetails: "Reels • UGC • Ad Creatives • Branding Content",
+      seo: "🔍 SEO",
+      seoDesc: "Rank higher. Get organic leads",
+      seoDetails: "Local SEO • On-Page Optimization • Keywords • Tracking & Reporting"
     },
     
     // Calendar

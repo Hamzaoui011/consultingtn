@@ -3,20 +3,20 @@ import { useBooking } from '@/contexts/BookingContext';
 import { cn } from '@/lib/utils';
 import { 
   Target, 
-  Search, 
-  Share2, 
+  Brain, 
   ShoppingCart, 
+  Monitor, 
   Palette, 
-  BarChart3 
+  Search 
 } from 'lucide-react';
 
 const services = [
-  { id: 'metaAds', icon: Target },
-  { id: 'googleAds', icon: Search },
-  { id: 'socialMedia', icon: Share2 },
+  { id: 'paidAds', icon: Target },
+  { id: 'strategy', icon: Brain },
   { id: 'ecommerce', icon: ShoppingCart },
-  { id: 'branding', icon: Palette },
-  { id: 'audit', icon: BarChart3 },
+  { id: 'webDev', icon: Monitor },
+  { id: 'content', icon: Palette },
+  { id: 'seo', icon: Search },
 ] as const;
 
 type ServiceId = typeof services[number]['id'];
@@ -39,6 +39,7 @@ export const ServiceSelector = () => {
           const isSelected = bookingData.service === id;
           const serviceT = t.services[id as ServiceId];
           const serviceDescT = t.services[`${id}Desc` as keyof typeof t.services];
+          const serviceDetailsT = t.services[`${id}Details` as keyof typeof t.services];
           
           return (
             <button
@@ -65,7 +66,8 @@ export const ServiceSelector = () => {
               </div>
               
               <h3 className="font-bold text-lg mb-2">{serviceT}</h3>
-              <p className="text-muted-foreground text-sm">{serviceDescT}</p>
+              <p className="text-muted-foreground text-sm mb-2">{serviceDescT}</p>
+              <p className="text-muted-foreground/70 text-xs">{serviceDetailsT}</p>
             </button>
           );
         })}
