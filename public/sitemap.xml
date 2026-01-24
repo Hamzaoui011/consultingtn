@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage - French (Default) -->
+  <url>
+    <loc>https://consultingtn.lovable.app/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://consultingtn.lovable.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://consultingtn.lovable.app/?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://consultingtn.lovable.app/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://consultingtn.lovable.app/"/>
+    <lastmod>2026-01-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://consultingtn.lovable.app/favicon.png</image:loc>
+      <image:title>EL Marketeur TN - Consultant Marketing Digital Tunisie</image:title>
+      <image:caption>Logo EL Marketeur TN - Expert en marketing digital et consulting en Tunisie</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Arabic Version -->
+  <url>
+    <loc>https://consultingtn.lovable.app/?lang=ar</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://consultingtn.lovable.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://consultingtn.lovable.app/?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://consultingtn.lovable.app/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://consultingtn.lovable.app/"/>
+    <lastmod>2026-01-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- English Version -->
+  <url>
+    <loc>https://consultingtn.lovable.app/?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://consultingtn.lovable.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://consultingtn.lovable.app/?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://consultingtn.lovable.app/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://consultingtn.lovable.app/"/>
+    <lastmod>2026-01-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>
